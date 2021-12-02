@@ -44,6 +44,7 @@ def searchPhone():
                 response = get_response(error_code=msg[0], error_message=msg[1])
         return json.dumps(response, ensure_ascii=False)
     except Exception as e:
+        print(e)
         msg = getdata.get_errorMsg(11)
         response = get_response(error_code=msg[0], error_message=msg[1])
         return json.dumps(response, ensure_ascii=False)
