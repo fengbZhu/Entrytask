@@ -7,4 +7,4 @@ BASE_PATH = os.path.dirname(
 )
 
 PHONE_DATA = os.path.join(BASE_PATH, 'data', 'phone.yml')
-ERRORCODE_DATA = os.path.join(BASE_PATH, 'data', 'errorCOde.yml')
+ERRORCODE_DATA = os.path.join(BASE_PATH, 'data', 'errorCode.yml')
